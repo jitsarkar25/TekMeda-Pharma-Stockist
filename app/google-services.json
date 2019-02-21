@@ -1,0 +1,107 @@
+{
+  "project_info": {
+    "project_number": "71586936152",
+    "firebase_url": "https://tekmeda-5ba8c.firebaseio.com",
+    "project_id": "tekmeda-5ba8c",
+    "storage_bucket": "tekmeda-5ba8c.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:71586936152:android:189c08e9f673e99d",
+        "android_client_info": {
+          "package_name": "retailer.tekmeda.com.tekmedaretailer"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "71586936152-4gt1g3s19q0t1m27gbmvukevd84dgugu.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "retailer.tekmeda.com.tekmedaretailer",
+            "certificate_hash": "ac6c2c21599765106576d77554edcea21747c748"
+          }
+        },
+        {
+          "client_id": "71586936152-9tksqjp76rpg0th67v1664v7o99tjr68.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBa8UTgnpB0mMUFoJrEnX1R1YMfOqVED60"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "71586936152-9tksqjp76rpg0th67v1664v7o99tjr68.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:71586936152:android:f4f2f035b4f257b3",
+        "android_client_info": {
+          "package_name": "stockist.tekmeda.com.tekmedastockist"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "71586936152-1vg8257ffj4ocmqa3rh0q8puohn9gbm9.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "stockist.tekmeda.com.tekmedastockist",
+            "certificate_hash": "ac6c2c21599765106576d77554edcea21747c748"
+          }
+        },
+        {
+          "client_id": "71586936152-lg2nplneur4tv6jqisarr1hjnch0hdfs.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "stockist.tekmeda.com.tekmedastockist",
+            "certificate_hash": "18805dc49571e5a1e5cc68311c208e44b9afa414"
+          }
+        },
+        {
+          "client_id": "71586936152-9tksqjp76rpg0th67v1664v7o99tjr68.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBa8UTgnpB0mMUFoJrEnX1R1YMfOqVED60"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "71586936152-9tksqjp76rpg0th67v1664v7o99tjr68.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

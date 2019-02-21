@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    >
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="asas"
+        android:gravity="center_horizontal"
+        android:textColor="#ffffff"
+        android:id="@+id/orderNumberNew"
+        />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:background="@drawable/list_back"
+        android:layout_height="wrap_content">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#ffffff"
+            android:text="Calpol 650mg"
+            android:textSize="17dp"
+            android:padding="7dp"
+            android:id="@+id/tvorderedMedicineName"
+            android:textStyle="bold"
+            />
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:orientation="horizontal"
+            android:weightSum="2"
+            android:layout_height="wrap_content">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="5 Bottles"
+                android:layout_weight="1"
+                android:id="@+id/tvorderedMedicineQty"
+                android:textColor="#ffffff"
+                android:paddingLeft="7dp"
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="5 Bottles"
+                android:gravity="right"
+                android:layout_weight="1"
+                android:id="@+id/tvDeliveredTime"
+                android:textColor="#ffffff"
+                android:paddingLeft="7dp"
+                />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:orientation="horizontal"
+            android:weightSum="3"
+            android:layout_height="match_parent">
+            <Button
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:background="@drawable/button_selector_blue"
+                android:layout_margin="8dp"
+                android:id="@+id/bAcceptOrder"
+                android:text="Accept"
+                android:textColor="#ffffff"
+                android:padding="0dp"
+                android:layout_height="match_parent" />
+            <Button
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:background="@drawable/button_selector_blue"
+                android:layout_margin="8dp"
+                android:text="Modify"
+                android:id="@+id/bModifyOrder"
+                android:textColor="#ffffff"
+                android:padding="0dp"
+                android:layout_height="match_parent" />
+            <Button
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:background="@drawable/button_selector_blue"
+                android:layout_margin="8dp"
+                android:text="Reject"
+                android:id="@+id/bRejectOrder"
+                android:textColor="#ffffff"
+                android:padding="0dp"
+                android:layout_height="match_parent" />
+
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>

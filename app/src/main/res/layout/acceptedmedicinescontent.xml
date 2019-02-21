@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+
+    >
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="asas"
+        android:gravity="center_horizontal"
+        android:textColor="#ffffff"
+        android:id="@+id/orderNumberAccepted"
+        />
+    <LinearLayout
+        android:background="@drawable/list_back"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:weightSum="100"
+        >
+        <LinearLayout
+            android:layout_width="0dp"
+            android:orientation="vertical"
+            android:layout_weight="70"
+            android:layout_height="wrap_content">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="#ffffff"
+                android:text="Calpol 650mg"
+                android:textSize="17dp"
+                android:padding="7dp"
+                android:id="@+id/tvorderedMedicineNameAccepted"
+                android:textStyle="bold"
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="5 Bottles"
+                android:paddingBottom="7dp"
+                android:id="@+id/tvorderedMedicineQtyAccepted"
+                android:textColor="#ffffff"
+                android:paddingLeft="7dp"
+                />
+
+        </LinearLayout>
+        <Button
+            android:layout_width="0dp"
+            android:layout_weight="30"
+            android:background="@drawable/button_selector_blue"
+            android:layout_margin="10dp"
+            android:text="Delivered"
+            android:textColor="#ffffff"
+            android:id="@+id/bDelivered"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+</LinearLayout>

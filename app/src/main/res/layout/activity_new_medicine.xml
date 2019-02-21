@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:background="@color/colorBackground"
+    android:layout_height="match_parent"
+    android:padding="10dp"
+    tools:context=".NewMedicineActivity">
+
+    <EditText
+        android:layout_marginTop="40dp"
+        android:layout_width="match_parent"
+        android:hint="Medicine Name"
+        android:layout_height="50dp"
+        android:id="@+id/etMedicineName"
+        android:textColorHint="#ffffff"
+        android:textColor="#ffffff"
+        android:background="@drawable/edit_selector"
+        />
+    <EditText
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:hint="Medicine Company"
+        android:layout_height="50dp"
+        android:id="@+id/etMedicineCompany"
+        android:textColorHint="#ffffff"
+        android:textColor="#ffffff"
+        android:background="@drawable/edit_selector"
+        />
+    <EditText
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:hint="Generic Name"
+        android:layout_height="50dp"
+        android:textColor="#ffffff"
+        android:textColorHint="#ffffff"
+        android:id="@+id/etMedicineGeneric"
+        android:background="@drawable/edit_selector"
+        />
+    <EditText
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:hint="Medicine Company"
+        android:layout_height="100dp"
+        android:lines="3"
+        android:id="@+id/etMedicineDesc"
+        android:textColorHint="#ffffff"
+        android:textColor="#ffffff"
+        android:background="@drawable/edit_selector"
+        />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/button_selector_blue"
+        android:text="Save"
+        android:textColor="#ffffff"
+        android:onClick="SaveMed"
+        />
+</LinearLayout>
